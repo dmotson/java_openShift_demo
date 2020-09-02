@@ -13,7 +13,7 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        for (int i = 0; i < 20; i++) {
+        while (true) {
             System.out.println("Hello World!");
             try {
                 Thread.sleep(1000);
